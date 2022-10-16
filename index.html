@@ -1,0 +1,65 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="pagina">
+
+        <div class="calculadora">
+
+            <div class="exibicao">
+
+                <div class="conta" id="conta">
+                    
+                </div>
+
+            </div>
+
+            <div class="teclas grid-container">
+
+                <button class="destaque" onclick="ac()">AC</button>
+                <button class="destaque" onclick="conta(this)">^</button>
+                <button class="destaque" onclick="conta(this)">√</button>
+                <button class="destaque" onclick="conta(this)">/</button>
+                <button class="destaque" onclick="conta(this)">%</button>
+                <button class="destaque" onclick="conta(this)">(</button>
+                <button class="destaque" onclick="conta(this)">)</button>
+                <button class="destaque" onclick="apagar()"><=</button>
+                <button onclick="clicarNum(this)">7</button>
+                <button onclick="clicarNum(this)">8</button>
+                <button onclick="clicarNum(this)">9</button>
+                <button class="destaque" onclick="conta(this)">x</button>
+                <button onclick="clicarNum(this)">4</button>
+                <button onclick="clicarNum(this)">5</button>
+                <button onclick="clicarNum(this)">6</button>
+                <button class="destaque" onclick="conta(this)">-</button>
+                <button onclick="clicarNum(this)">1</button>
+                <button onclick="clicarNum(this)">2</button>
+                <button onclick="clicarNum(this)">3</button>
+                <button class="destaque" onclick="conta(this)">+</button>
+                <button class="maior" onclick="clicarNum(this)">0</button>
+                <button onclick="ponto()">,</button>
+                <button class="destaque" onclick="resultado()">=</button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
